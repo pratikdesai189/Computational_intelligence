@@ -14,7 +14,7 @@ def shape_detection_by_dtw(detection_for: str):
     directory_name = ''
     # Example reference image
     if detection_for == 'pothole':
-        directory_name = 'pothole_data_set'
+        directory_name = '../../pothole_data_set'
         reference_image = str(directory_name) + '/ref_img/refImg.jpg'
         for filename in os.listdir(directory_name):
             # Check if the file is a .jpg image
